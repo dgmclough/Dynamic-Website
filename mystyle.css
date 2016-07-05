@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*a div that contains all of the elements of the page*/
+.container{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	border: 1px solid #0000;
+	background-color: #E84C3D;
+	position:relative;
+	margin:0px auto;
+	font-family: Verdana;
+	color:white;
+}
+
+/*container paragraph attributes*/
+.container p{	
+	padding-left: 50px;
+}
+
+/*container link attributes*/
+.container a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #2D3E50;
+}
+
+/*banner div for the header section */
+.banner{
+	width:auto;
+	height:100px;
+	border: 1px solid #0000;
+	background-color: #2D3E50;
+}
+
+/*logo div for the company title placement in the banner div */
+.logo{
+	width: 450px;
+	height: 100px;
+	position: absolute;
+	left: 0px;
+	color:white;
+	padding-top:25px;
+	padding-left:25px;
+	}
+
+/*div placement for the login/register/logout buttons in banner div*/
+.buttons{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	right:0px;
+	text-align: center;
+	}
+	
+/*table for holding the buttons*/
+.buttons table{
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	font-size: 15px;
+	}
+
+/*link attributes for the buttons in*/
+.buttons a{
+	display:block;
+	text-decoration:none;
+	font-weight:bold;
+	}
+	
+/*unvisited link*/
+.buttons a:link {
+    color: white;
+}
+
+/*visited link*/
+.buttons a:visited {
+    color:  #E84C3D;
+}
+
+/*mouse over link*/
+.buttons a:hover {
+    color:  #E84C3D;
+}
+
+/*selected link*/
+.buttons a:active {
+    color: #E84C3D;
+}
+
+/*navigation bar attributes and positioning*/
+.nav{
+	width: auto;
+	height: 50px;
+	background-color: white;
+	text-align: center;
+}
+
+/*unordered list styling*/
+.nav ul{
+	list-style-type: none;
+	padding:15px;
+	height: 50px;
+	}
+
+/*list element styling/ side by side */	
+.nav li{
+	display: inline;
+	}
+	
+/*link attributes for navigaton buttons*/
+.nav a{
+	display: inline- block;
+	padding: 80px;
+	padding-top:0px;
+	padding-bottom:0px;
+	text-decoration:none;
+	font-weight: bold;
+	font-size: 20px;
+	}
+	
+/* unvisited link */
+.nav a:link {
+    color: #2D3E50;;
+}
+
+/* visited link */
+.nav a:visited {
+    color: #E84C3D;
+}
+
+/* mouse over link */
+.nav a:hover {
+    color: #31698A;
+}
+
+/* selected link */
+.nav a:active {
+    color: #E84C3D;
+}
+
+/*div for body of the webpage*/
+.main{
+	width: auto;
+	border: 1px solid #0000;
+	background-color: white;
+	margin: 0px auto;
+}
+
+/*div to divide up different section of the main*/
+.section{
+	width: auto;
+	height: 640px;
+	background-color: #E84C3D;
+	margin: 50px auto;
+	margin-bottom: 0px;
+	}
+
+/*styling for profile image on index*/	
+.section  img{
+	width: 325px;
+	display: block;
+	padding-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+/*styling for headings in section div*/	
+.section  h1, h2{
+	font-weight: bold;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	}
+
+/*styling for paragraph in section div*/	
+.section p{
+	font-size: 20px;
+	color: white;
+	width: 70%;
+	margin: 25px auto;
+	text-align:  justify;
+}
+
+/*id for link inside the section area*/
+#section_link{
+	color:#E84C3D;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+/*div for layout of images of new classes on index*/
+.imagearea{
+	width: auto;
+	position: absolute;
+	height:200px;
+	padding-left:100px;
+	padding-top:20px;
+}
+
+/*styling for images in the imagearea div*/
+.imagearea img{
+	width: 240px;
+	display: inline;
+	padding: 10px;
+	text-align: center;
+}
+
+/*styling for paragraph in the imagearea div*/
+.imagearea p{
+	width:auto;
+	font-size:20px;
+	color: #2D3E50;
+	margin: 25px 0;
+	text-align: center;
+}
+
+
+#location{
+	text-align:center;
+	margin:0px auto;
+}
+	
+/*div for structure and layout of all forms on the website*/
+.forms{
+	max-width:500px;
+	margin:20px auto;
+	clear: both;
+	color: white;
+	font-size: 25px;
+}
+
+/*styling for the forms fieldsets*/
+.forms fieldset{
+	border:none;
+}
+
+/*styling for the input into forms*/		
+.forms input{
+	width: 100%;
+	height: 50px;
+	clear: both;
+	font-size: 25px;
+}	
+
+/*styling for the select option in forms*/
+.forms select{
+	width: 100%;
+	height: 50px;
+	clear: both;
+	font-size: 25px;
+}	
+
+/*styling for textarea/ comment section in contact*/
+.forms textarea{
+	min-width:500px;
+	max-width:500px;
+	max-height:100px;
+	min-height:100px;
+	height: 100px;
+	clear: both;
+	font-size: 25px;
+}	
+
+/*styling for the span which was for the javascript error messages*/
+.forms span{
+	font-size: 15px;
+	color: yellow;
+}	
+
+/*styling for the value field element*/
+.forms value{
+	color: grey;
+}
+
+/*formatting and layout of table for the members page table*/
+.membertable{
+	width: 90%;
+	margin: 20px auto;
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	border-style:solid;
+	border-width:2px;
+	border-color:white;
+	text-align:center;
+}
+
+/*membertable styling for table header*/
+.membertable th{
+	background-color:white;
+}
+
+/*membertable styling for table cell*/
+.membertable td{
+	background-color:#2D3E50;
+	border: solid 1px white;
+	padding: 4px;	
+}
+
+/*div for displaying the information about classes*/
+.classes{
+	text-align: center;
+	float: left;
+	width: 26.5%;
+	height: 520px;
+	padding: 20px;
+	background-color: green;
+	margin-left: 20px;
+}
+
+/*styling for paragraph in classes div*/
+.classes p{
+	font-size: 12px;
+	text-align: center;
+	padding: 0px;
+}
+
+/*styling for links in classes div*/
+.classes a{
+	color: white;
+	font-size: 25px;
+}
+
+/*div layout and styling for the footer*/
+.footer{
+	width: auto;
+	height: 200px;
+	background-color: #2D3E50;
+	}
+
+/*div for separate sections of the footer*/
+.footersection{
+	padding-top:20px;
+	float: left;
+	width: 25%;
+	height: 50px;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+}
+
+/*styling for link in footer div*/
+.footer a{
+	text-decoration:none;
+	color:white;
+	}
+
+
+/* mouse over link */
+.footer a:hover {
+    color: #31698A;
+}
+
